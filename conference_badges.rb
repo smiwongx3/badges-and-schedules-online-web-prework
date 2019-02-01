@@ -12,4 +12,7 @@ end
 
 def assign_rooms(attendees)
   attendees.each_with_index { |item, index| 
+  attendees[item] = index}
   attendees
+end 
+
